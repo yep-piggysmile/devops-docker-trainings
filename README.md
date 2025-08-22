@@ -2,14 +2,8 @@
 
 ## Day 1
 
-> **Tip:**  
-> ถ้าต้องการแสดงไฟล์ PDF บน GitHub ให้ใช้ลิงก์แบบนี้:
->
-> ```markdown
-> [ดูไฟล์ PDF](day1/documents/devops-docker-training-day1.pdf)
-> ```
-> 
-
+Presentation: 
+[docker-training-day1.pdf](day1/documents/devops-docker-training-day1.pdf)
 
 ### What’s DevOps?
 DevOps คือแนวคิดและกระบวนการที่ผสานงานระหว่างทีมพัฒนา (Development) และทีมปฏิบัติการ (Operations) เพื่อให้การพัฒนาและส่งมอบซอฟต์แวร์เป็นไปอย่างรวดเร็ว มีประสิทธิภาพ และต่อเนื่อง
