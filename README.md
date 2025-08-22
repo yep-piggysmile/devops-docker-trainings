@@ -27,11 +27,11 @@ Docker คือแพลตฟอร์มยอดนิยมสำหรั�
 
 | Script | คำอธิบาย |
 |--------|----------|
-| [`1.install-docker-master.sh`](scripts/1.install-docker-master.sh) | ติดตั้ง Docker และตั้งค่า node เป็น Swarm master |
-| [`2.install-docker-worker.sh`](scripts/2.install-docker-worker.sh) | ติดตั้ง Docker และ join node เป็น Swarm worker |
-| [`3.install-portainer.sh`](scripts/3.install-portainer.sh) | ติดตั้ง Portainer สำหรับจัดการ Docker ผ่าน web UI |
-| [`4.install-adguard-home.sh`](scripts/4.install-adguard-home.sh) | ติดตั้ง AdGuard Home สำหรับ DNS filtering |
-| [`5.install-treaflik.sh`](scripts/5.install-treaflik.sh) | ติดตั้ง Traefik สำหรับ reverse proxy และ load balancing |
+| [`1.install-docker-master.sh`](day1/scripts/1.install-docker-master.sh) | ติดตั้ง Docker และตั้งค่า node เป็น Swarm master |
+| [`2.install-docker-worker.sh`](day1/scripts/2.install-docker-worker.sh) | ติดตั้ง Docker และ join node เป็น Swarm worker |
+| [`3.install-portainer.sh`](day1/scripts/3.install-portainer.sh) | ติดตั้ง Portainer สำหรับจัดการ Docker ผ่าน web UI |
+| [`4.install-adguard-home.sh`](day1/scripts/4.install-adguard-home.sh) | ติดตั้ง AdGuard Home สำหรับ DNS filtering |
+| [`5.install-treaflik.sh`](day1/scripts/5.install-treaflik.sh) | ติดตั้ง Traefik สำหรับ reverse proxy และ load balancing |
 
 > **หมายเหตุ:**  
 > - ก่อนรัน script ใด ๆ ให้ตรวจสอบสิทธิ์การเข้าถึง (`chmod +x <script>`)
@@ -62,9 +62,9 @@ Auto Deploy คือกระบวนการที่เมื่อมี�
 
 | Script | คำอธิบาย |
 |--------|----------|
-| [`gitlab-ci-example/.gitlab-ci.yml`](gitlab-ci-example/.gitlab-ci.yml) | ตัวอย่าง pipeline สำหรับ GitLab CI/CD |
-| [`docker/Dockerfile`](docker/Dockerfile) | ตัวอย่างไฟล์ Dockerfile สำหรับ build image |
-| [`docker/docker-compose.yml`](docker/docker-compose.yml) | ตัวอย่างไฟล์ Docker Compose สำหรับรันหลาย container |
+| [`gitlab-ci-example/.gitlab-ci.yml`](day2/scripts/gitlab-ci-example/.gitlab-ci.yml) | ตัวอย่าง pipeline สำหรับ GitLab CI/CD |
+| [`docker/Dockerfile`](day2/scripts/docker/Dockerfile) | ตัวอย่างไฟล์ Dockerfile สำหรับ build image |
+| [`docker/docker-compose.yml`](day2/scripts/docker/docker-compose.yml) | ตัวอย่างไฟล์ Docker Compose สำหรับรันหลาย container |
 
 > **หมายเหตุ:**  
 > - ตัวอย่างไฟล์ทั้งหมดอยู่ในโฟลเดอร์ที่ระบุ สามารถนำไปปรับใช้กับโปรเจกต์ของคุณได้
